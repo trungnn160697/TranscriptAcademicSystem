@@ -77,3 +77,11 @@ Transcript *searchByIdSubject(char mssv[20],char id_subject[20]){
 	}
 	return NULL;
 }
+/*
+int main(int argc, char const *argv[])
+{
+	readFileSubject("subject.txt");
+	readFileTranscript("transcript.txt");
+	printf("%d\n",checkMarkOfStudent("20153979"));
+	return 0;
+}*/

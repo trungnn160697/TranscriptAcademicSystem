@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 typedef struct Account{
 	char mssv[20];
@@ -8,6 +9,7 @@ typedef struct Account{
 }Account;
 
 Account account[100];
+Account accountLogin;
 
 int total_account = 0;
 
@@ -29,6 +31,8 @@ int checkLogin(Account acc){
 	for (int i = 0; i < total_account; ++i)
 	{
 		if(strcmp(acc.mssv,account[i].mssv)==0&&strcmp(acc.password,account[i].password)==0){
+			strcpy(accountLogin.mssv,acc.mssv);
+			strcpy(accountLogin.name,account[i].name);
 			return 1;
 		}
 	}
