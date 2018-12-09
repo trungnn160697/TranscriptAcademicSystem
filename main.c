@@ -174,7 +174,8 @@ void showTranscript(){
 
     gtk_widget_show (table);
     gtk_widget_show (box2);
-    char *showInfo;
+
+    /*char *showInfo;
     strcpy(showInfo,accountLogin.name);
     strcat(showInfo," - ");
     strcat(showInfo,accountLogin.mssv);
@@ -184,7 +185,7 @@ void showTranscript(){
         printf("%s\n",showInfo );
     
         gtk_label_set_text (infoUser,showInfo);
-    }
+    }*/
     gtk_widget_show (viewTranscript);                
 
 }

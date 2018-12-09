@@ -13,7 +13,7 @@
           <object class="GtkGrid" id="grid1">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="margin_left">500</property>
+            <property name="margin_left">489</property>
             <property name="margin_top">10</property>
             <child>
               <object class="GtkLabel" id="info_user">
